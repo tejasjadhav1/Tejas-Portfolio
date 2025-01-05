@@ -13,9 +13,10 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a href='#' style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+        <a href='/portfolio' style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px', cursor: 'pointer' }}>
+          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+        </a>
+
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
